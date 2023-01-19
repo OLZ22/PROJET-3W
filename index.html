@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+        <script src='test.js' async></script>
+  <title>Tâche à faire</title>
+</head>
+<body>
+
+<h1>Projet tâche à faire</h1>
+  <div class="container">
+    <p>
+      <label for="new-task">Ajouter une Tâche</label><input id="new-task" type="text" placeholder="Ex paiement lydec"><button>Ajouter</button>
+    </p>
+    
+    <h3>Tâche à faire</h3>
+    <ul id="incomplete-tasks">
+      <li><input type="checkbox"><label>paiement netflix</label><input type="text"><button class="edit">Editer</button><button class="delete">Supprimer</button></li>
+      <li><input type="checkbox"><label>paiement orange</label><input type="text" value="paiement orange"><button class="edit">Editer</button><button class="delete">Supprimer</button></li>
+      
+    </ul>
+    
+    <h3>Tâche complete</h3>
+    <ul id="completed-tasks">
+      <li><input type="checkbox" checked><label>paiement ps network</label><input type="text"><button class="edit">Editer</button><button class="delete">Supprimer</button></li>
+    </ul>
+  </div>
+
+ 
+</body>  
+
+</html>
